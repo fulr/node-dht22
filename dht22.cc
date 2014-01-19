@@ -8,13 +8,18 @@ using namespace v8;
 Handle<Value> ReadDHT22(const Arguments& args) {
   HandleScope scope;
 
+  Local<Object> obj=Object::New();
+
   float humidity;
   float temperature;
 
   int state=read_dht22_dat(7,&humidity,&temperature);
 
+  obj->Set(String::New("state"),Number::New(state));
+  obj->Set(String::New("humidity"),Number::New(humidity));
+  obj->Set(String::New("temperature"),Number::New(temperature));
 
-  return scope.Close(String::New("world"));
+  return scope.Close(obj);
 }
 
 void init(Handle<Object> exports) {
