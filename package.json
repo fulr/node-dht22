@@ -1,0 +1,10 @@
+{
+  "name": "node-dht2",
+  "version": "0.0.1",
+  "author": "Friedl Ulrich",
+  "description": "Node.js Interface for DHT22 on Raspberry",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fulr/node-dht22.git"
+  }
+}
