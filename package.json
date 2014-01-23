@@ -1,6 +1,6 @@
 {
   "name": "node-dht22",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Friedl Ulrich",
   "description": "Node.js Interface for DHT22 on Raspberry",
   "repository": {

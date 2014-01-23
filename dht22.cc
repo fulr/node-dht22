@@ -33,7 +33,7 @@
 
 #define MAXTIMINGS 100
 
-#define DEBUG
+//#define DEBUG
 
 #define DHT11 11
 #define DHT22 22
