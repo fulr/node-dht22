@@ -1,4 +1,4 @@
-var d=require('./build/Release/dht22');
+var d=require('./index');
 
 console.log(d);
 
